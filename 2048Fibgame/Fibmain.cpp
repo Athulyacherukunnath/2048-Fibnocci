@@ -20,8 +20,8 @@ int main()
 	while (1)
 	{
 		system("cls");
-		printf("enter given numbers for operations\n");
-		printf("\n	enter [1] for playgame [2] for replay [3] for leader board [4] Exit\n ");
+		printf("enter your choice\n");
+		printf("\n1.Play game\n2.Replay\n3.Leader board\n4.Exit\n ");
 		scanf("%d", &choice);
 		switch (choice)
 		{
@@ -38,7 +38,7 @@ int main()
 			k = 1;
 			break;
 		default:
-			printf("enter valid option\n");
+			printf("Invalid option.Please enter valid option\n");
 			break;
 		}
 		if (k == 1){ break; }
